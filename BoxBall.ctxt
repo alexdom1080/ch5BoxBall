@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=BoxBall
+comment1.params=xLoc\ yLoc\ ballDiameter\ ballColor\ box_width\ box_height\ drawingCanvas
+comment1.target=BoxBall(int,\ int,\ int,\ java.awt.Color,\ int,\ int,\ Canvas)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ BoxBall\n\ @param\ xLoc\ is\ the\ horizontal\ coordinate\ of\ the\ ball\n\ @param\ yLoc\ is\ the\ vertical\ coordinate\ of\ the\ ball\n\ @param\ ballDiameter\ is\ the\ diameter\ of\ the\ ball\ \n\ @param\ ballColor\ is\ the\ color\ of\ the\ ball\n\ @param\ box_width\ is\ the\ width\ of\ the\ rectangle\n\ @param\ box_height\ is\ the\ height\ of\ the\ rectangle\n\ @param\ Canvas\ draws\ the\ canvas\ that\ this\ will\ go\ on\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\n\ Draws\ the\ ball\ at\ its\ current\ position\ on\ the\ canvas.\n
+comment3.params=
+comment3.target=void\ erase()
+comment3.text=\n\ Erase\ this\ ball\ at\ its\ current\ position.\n
+comment4.params=
+comment4.target=void\ move()
+comment4.text=\n\ Move\ this\ ball\ according\ to\ its\ speed\ and\ redraw\ the\ ball\ at\ its\ new\n\ location.\n
+comment5.params=
+comment5.target=int\ getXLocation()
+comment5.text=\n\ Returns\ horizontal\ position\ of\ the\ ball\n
+comment6.params=
+comment6.target=int\ getYLocation()
+comment6.text=\n\ Returns\ vertical\ position\ of\ the\ ball\n
+numComments=7

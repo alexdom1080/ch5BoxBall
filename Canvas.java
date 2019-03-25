@@ -81,6 +81,18 @@ public class Canvas
         }
         frame.setVisible(true);
     }
+    
+    /**
+     * Draws a rectangle on screen for balls to bounce in.
+     * @param x1 is the x-coordinate
+     * @param y1 is the y-coordinate
+     * @param width is the width of the rectangle
+     * @param height is the height of the rectangle
+     */
+    public void boxBounce(int x1, int y1, int width, int height) {
+        graphic.drawRect(x1, y1, width, height);
+        canvas.repaint();
+    }
 
     /**
      * Provide information on visibility of the Canvas.
